@@ -1,0 +1,40 @@
+## Common Data Structure Operations and its implementation on Python: ##
+
+
+1. Array
+Concept: Array is a Data Structure which can store a fixed-size collection
+of elements of the same data type.
+
+implementation:
+Array = ['car', 'bus', 'truck', 'boat']
+----------------------------------------------------------------------------
+2. Stack
+Concept: Stack is a abstract data type and/or data structure
+which is based on the concept of first in, first out.
+
+implementaion:
+stack = []
+# append() function to push element in the stack
+stack.append('a')
+stack.append('b')
+
+print('initial stack')
+print(stack)
+
+# pop() function to pop element from stack in LIFO order
+print('/n Element popped from stack:')
+print(stack.pop())
+print(stack.pop())
+
+print('/n Stack after elements are popped:')
+print(stack)
+
+OUTPUT:
+initial stack
+['a', 'b']
+
+Elements popped from stack:
+b
+a
+Stack after elements are popped:
+[]
